@@ -1,0 +1,22 @@
+{
+  "name": "issuetracker",
+  "version": "1.0.0",
+  "description": "track user issues, create, update and resolve issue",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TUgonna/issuetracker.git"
+  },
+  "author": "Ugonna Thelma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TUgonna/issuetracker/issues"
+  },
+  "homepage": "https://github.com/TUgonna/issuetracker#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
