@@ -18,12 +18,6 @@ app.use(express.static(__dirname + "index.html"));
 
 var ref = firebase.database().ref().child("users");
 
-ref.set({
-	111000:{
-		user_name: "Ugonna Ofoegbu",
-		password: "kiss2nite"
-	}
-})
 console.log(ref);
 
 
